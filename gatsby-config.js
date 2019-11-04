@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Ryan Sage',
-    author: '@sageguyvs',
+    author: '@sageguyvg',
     siteUrl: 'https://ryansage.dev',
   },
   plugins: [
@@ -33,7 +33,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_BUILD_PERSONAL_WEBSITE,
+        trackingId: 'UA-151462784-1',
         anonymize: true,
         respectDNT: true,
       },
