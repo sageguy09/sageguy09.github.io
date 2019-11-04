@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: '/sageguy09.github.io',
   siteMetadata: {
     title: 'Ryan Sage',
     author: '@sageguyvs',
