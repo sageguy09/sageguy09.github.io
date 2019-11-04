@@ -74,7 +74,7 @@ const Home = () => (
         I enjoy learning through problem solving and working with all things technology. `}
       </p>
       <p>
-        I have expierence building projects using JavaScript using React and Node and various backends such as Django, Express, and Koa.  
+      Experienced in building projects with JavaScript, Node, React, Django, Express, Koa and more.  
       </p>
       <p>
         Check out my
