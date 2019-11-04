@@ -12,7 +12,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/ryansage/sei-course/ga-sei/sageguy09.github.io/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"anonymize":true,"respectDNT":true},
+      options: {"plugins":[],"trackingId":"UA-151462784-1","anonymize":true,"respectDNT":true},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

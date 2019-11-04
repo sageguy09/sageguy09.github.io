@@ -6,5 +6,5 @@ module.exports = [{
       options: {"plugins":[]},
     },{
       plugin: require('../node_modules/gatsby-plugin-google-analytics/gatsby-browser.js'),
-      options: {"plugins":[],"anonymize":true,"respectDNT":true},
+      options: {"plugins":[],"trackingId":"UA-151462784-1","anonymize":true,"respectDNT":true},
     }]

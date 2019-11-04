@@ -77,7 +77,7 @@ const Projects = ({ data }) => (
           <Card
             title="Five In A Row"
             subtitle="A boardgame invented by my Grandmother. The web app features an online lobby and multiplayer with up to 3 players. Developed with React, Koa, and boardgame.io (a game engine for react)"
-            link="https://github.com/sageguy09/5-In-A-Row"
+            link="https://github.com/sageguy09/Five-In-A-Row-Refactor"
             tags={['React', 'Koa','boardgame.io']}
             image={<Img fixed={data.project3.childImageSharp.fixed} alt="Five In A Row gameboard" />}
           />
