@@ -10,14 +10,7 @@ import Title from 'components/Title';
 
 export const queryImage = graphql`
   query {
-    post1: file(relativePath: { eq: "how-gatsby-is-blazing-fast.jpg" }) {
-      childImageSharp {
-        fixed(width: 96, height: 96) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    post2: file(relativePath: { eq: "learn-react.jpg" }) {
+    post1: file(relativePath: { eq: "fir-dev-station.jpg" }) {
       childImageSharp {
         fixed(width: 96, height: 96) {
           ...GatsbyImageSharpFixed
@@ -31,42 +24,33 @@ const Blog = ({ data }) => (
   <Layout>
     <SEO
       pageTitle="Blog"
-      description="Front-end developer, developing apps and web pages"
-      keywords="React, Node, Gatsby, Front-end, developer, API"
+      description="Software Engineer, creating unique and practical applicatoins"
+      keywords="React, Node, Full Stack, Engineer, Django, Express, API"
     />
     <section className="section is-size-4-desktop is-size-5-touch">
       <Title>Blog</Title>
       <p className="has-text-centered">
         Follow me on
         {' '}
-        <a href="https://twitter.com/luanorlandi">
+        <a href="https://twitter.com/sageguyvg">
           Twitter
         </a>
         {' '}
         and
         {' '}
-        <a href="https://medium.com/@luanorlandi">
+        <a href="https://medium.com/@ryansage09">
           Medium
         </a>
-        {' '}
-        to read more topics of tech
         {'.'}
       </p>
       <div className="columns is-centered">
         <div className="column is-half">
           <Card
-            title="How Gatsby is so blazing fast"
-            subtitle="Performance greatly affects the user experience. Gatsby builds fast websites out-of-the-box"
-            link="https://medium.freecodecamp.org/how-gatsby-is-so-blazing-fast-c99a6f2d405e"
-            tags={['Gatsby']}
+            title="Taking the pluge into a new career in Software Engineering"
+            subtitle="A short recap of my tranformational journey into becoming a software engineer"
+            link="https://medium.com/@ryansage09/taking-the-plunge-into-a-new-career-in-software-engineering-711e9617d708"
+            tags={['Software Engineering', 'Self Developement', 'General Assembly']}
             image={<Img fixed={data.post1.childImageSharp.fixed} alt="Fast as the DeLorean" />}
-          />
-          <Card
-            title="Learn React easily with this rule"
-            subtitle="Make it fun"
-            link="https://medium.com/@luanorlandi/learn-react-easily-with-this-rule-a715b818a358"
-            tags={['React']}
-            image={<Img fixed={data.post2.childImageSharp.fixed} alt="Play it like Lego" />}
           />
         </div>
       </div>
