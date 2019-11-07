@@ -50,7 +50,7 @@ const Blog = ({ data }) => (
             subtitle="A short recap of my tranformational journey into becoming a software engineer"
             link="https://medium.com/@ryansage09/taking-the-plunge-into-a-new-career-in-software-engineering-711e9617d708"
             tags={['Software Engineering', 'Self Developement', 'General Assembly']}
-            image={<Img fixed={data.post1.childImageSharp.fixed} alt="Fast as the DeLorean" />}
+            image={<Img fixed={data.post1.childImageSharp.fixed} alt="Mobile dev station" />}
           />
         </div>
       </div>
