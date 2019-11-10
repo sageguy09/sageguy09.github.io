@@ -80,7 +80,7 @@ const Home = () => (
       </p>
       <h5 className="title has-text-light">Currently Working On</h5>
       <ul>
-      <li>Further develepement on my react board game, Five in a Row.</li>
+      <li>Further developement on my react board game, Five in a Row.</li>
       <li>Studying serverless APIs using GO and AWS.</li>
       <li>Improving and adding functionlity to my recipe storage application, Pintecipe. 
         (including social authentication and the ability to export 'Rich Pins' to Pinterest) </li>
