@@ -77,6 +77,9 @@ const Home = () => (
       Experienced in building projects with JavaScript, Node, React, Django, Express, Koa and more.  
       </p>
       <p>I am currently seeking new opportunities  with a company that will utilize my combined skills and strong work ethic.
+        <br/>
+        <br/>
+        My current resume can be found <a href="https://drive.google.com/file/d/1xhr-KzST48Ucx1jUr8Rq8Wxi2fGhCN0h/view?usp=sharing" target="_blank">here</a>
       </p>
       <h5 className="title has-text-light">Currently Working On</h5>
       <ul>
