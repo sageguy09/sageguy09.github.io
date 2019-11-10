@@ -78,11 +78,13 @@ const Home = () => (
       </p>
       <p>I am currently seeking new opputunities with a company that will utilize my combined skills and strong work ethic.
       </p>
-      <h5>Currently Working On</h5>
-      <p>Further develepement on my react board game, Five in a Row.</p>
-      <p>Studying serverless APIs using GO and AWS</p>
-      <p>Improving and adding functionlity to my recipe storage application, Pintecipe. 
-        (including social authentication and the ability to export 'Rich Pins' to Pinterest) </p>
+      <h5 className="title has-text-light">Currently Working On</h5>
+      <ul>
+      <li>Further develepement on my react board game, Five in a Row.</li>
+      <li>Studying serverless APIs using GO and AWS.</li>
+      <li>Improving and adding functionlity to my recipe storage application, Pintecipe. 
+        (including social authentication and the ability to export 'Rich Pins' to Pinterest) </li>
+      </ul>
       <p>
         Check out my
         {' '}
