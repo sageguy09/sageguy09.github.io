@@ -76,6 +76,13 @@ const Home = () => (
       <p>
       Experienced in building projects with JavaScript, Node, React, Django, Express, Koa and more.  
       </p>
+      <p>I am currently seeking new opputunities with a company that will utilize my combined skills and strong work ethic.
+      </p>
+      <h5>Currently Working On</h5>
+      <p>Further develepement on my react board game, Five in a Row.</p>
+      <p>Studying serverless APIs using GO and AWS</p>
+      <p>Improving and adding functionlity to my recipe storage application, Pintecipe. 
+        (including social authentication and the ability to export 'Rich Pins' to Pinterest) </p>
       <p>
         Check out my
         {' '}
