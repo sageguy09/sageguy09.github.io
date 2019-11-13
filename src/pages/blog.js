@@ -46,10 +46,10 @@ const Blog = ({ data }) => (
       <div className="columns is-centered">
         <div className="column is-half">
           <Card
-            title="Taking the pluge into a new career in Software Engineering"
-            subtitle="A short recap of my tranformational journey into becoming a software engineer"
+            title="Taking the plunge into a new career in Software Engineering"
+            subtitle="A short recap of my transformational journey into becoming a software engineer"
             link="https://medium.com/@ryansage09/taking-the-plunge-into-a-new-career-in-software-engineering-711e9617d708"
-            tags={['Software Engineering', 'Self Developement', 'General Assembly']}
+            tags={['Software Engineering', 'Self Development', 'General Assembly']}
             image={<Img fixed={data.post1.childImageSharp.fixed} alt="Mobile dev station" />}
           />
         </div>
